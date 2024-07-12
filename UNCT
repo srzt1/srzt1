@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCT - High Fashion Designer Clothing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #444;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UNCT</h1>
+        <p>High Fashion Designer Clothing</p>
+    </header>
+    <nav>
+        <a href="#mens">Men's Section</a>
+        <a href="#womens">Women's Section</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#sneakers">Sneakers</a>
+        <a href="#jackets">Jackets</a>
+        <a href="#watches">Watches</a>
+        <a href="#glasses">Glasses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="mens">
+        <h2>Men's Section</h2>
+        <p>Discover our exclusive collection of men's high fashion designer clothing.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="womens">
+        <h2>Women's Section</h2>
+        <p>Explore our elegant range of women's high fashion designer clothing.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="accessories">
+        <h2>Accessories</h2>
+        <p>Complement your style with our unique accessories.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="sneakers">
+        <h2>Sneakers</h2>
+        <p>Step up your game with our fashionable sneakers.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="jackets">
+        <h2>Jackets</h2>
+        <p>Stay stylish and warm with our designer jackets.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="watches">
+        <h2>Watches</h2>
+        <p>Find the perfect watch to match your outfit.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="glasses">
+        <h2>Glasses</h2>
+        <p>Accessorize with our trendy glasses.</p>
+        <!-- Add more content or images here -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us for more information or to make a purchase.</p>
+        <form action="#" method="post">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <!-- Add more contact details here -->
+    </section>
+    <footer>
+        <p>&copy; 2024 UNCT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
